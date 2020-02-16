@@ -101,3 +101,69 @@ section{
     font-weight: 800;
     color: white;
 }
+
+#about{
+    background-color: black;
+    position: relative;
+    top: 100px;
+}
+#about header {
+   width: 30%;
+   height: 100px;
+   background-color: black;
+   color: white;
+   font-size: 40px;
+   font-weight: bold;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+   padding: 15px 25px;
+   margin-top: 25px;
+   box-sizing: border-box;
+}
+.about-me{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+   
+}
+#about img {
+   height: 350px;
+   margin-left: 50px;
+   margin-right: 50px;
+   border-radius: 5px;
+  
+}
+.text{
+   padding: 15px;
+   border: 1px white solid;
+   width: 85%;
+   font-size: 22px;
+   color:white;
+   border-radius: 10px;
+
+}
+.text-2{
+   padding: 15px;
+   border: 1px white solid; 
+   width: 85%;
+   font-size: 22px;
+   color: white;
+   border-radius: 10px;
+}
+.img{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+.information{
+   display: flex;
+   flex-direction: column;
+}
+.information>*{
+   margin: 25px;
+   box-sizing: border-box;
+}
