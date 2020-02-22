@@ -135,7 +135,6 @@ section{
 }
 .text{
    padding: 15px;
-   border: 1px white solid;
    width: 85%;
    font-size: 22px;
    color:white;
@@ -144,7 +143,6 @@ section{
 }
 .text-2{
    padding: 15px;
-   border: 1px white solid; 
    width: 85%;
    font-size: 22px;
    color: white;
@@ -183,10 +181,10 @@ section{
 
 #services header div{
     margin-bottom: 55px;
-     color: white;
+    color: white;
     width: 30%;
-     border: 1px solid white;
-      border-radius: 10px;
+    
+    border-radius: 10px;
     display: flex;
     justify-content: center;
     font-size: 35px;
@@ -204,7 +202,7 @@ section{
 }
 .text>div {
     border-radius: 10px;
-    border: white  1px solid;
+   
     padding: 20px;
     width: 30%;
     margin: 15px;
@@ -236,7 +234,7 @@ section{
     margin: 15px;
     text-align: center;
     color: white;
-    border: white 1px solid;
+   
     border-radius: 10px;
     box-sizing: border-box;
     transition: 0.5s;
@@ -246,7 +244,7 @@ section{
 }
  
 #contacts{
-    background-color: green;
+    background-color: grey;
     display: flex;
     justify-content: center;
     align-items: center;
